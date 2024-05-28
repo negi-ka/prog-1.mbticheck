@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Yu Gothic", YuGothic, sans-serif;
+  }
+
+.gazo{
+    width: 180px;
+    height: 180px;
+    margin-top: 10px;
+    
+  }
+
+.gazo-d{
+    text-align: center
+}
+
+h2{
+    margin-top: -10px;
+    font-size: 50px;
+    letter-spacing: 8px;
+}
+  
+  
+  .choose_box {
+    position: relative;
+    width: 100%;
+    height: 500px;
+  }
+   .choose_box p {
+    margin-top: 5%;
+    margin-bottom: 10%;
+      font-size: 20px;
+      display: block;
+      font-weight: 600;
+      text-align: center;
+    }
+  
+  .choose_box li {
+    display: inline-block;
+    width: 80%;
+    margin-top: 10px;
+    list-style: none;
+  }
+  
+  ul {
+    margin-left: 37%;
+    padding-left: 0;
+    margin-top: -60px;
+  }
+  
+  
+ 
+  .choose_box ul li a {
+    width: 50%;
+    color: #fff;
+    display: block;
+    padding: 10px 10px;
+    text-align: center;
+    background-color: #10c010;
+    font-weight: 600;
+    font-size: 16px;
+    border: 2px solid #10c010;
+    text-decoration: none;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+  }
+  
+  .choose_box ul li a:hover {
+     background-color: #fff;
+    color: #10c010;
+      -webkit-transition: 0.7s;
+      -moz-transition: 0.7s;
+      -o-transition: 0.7s;
+      transition: 0.7s;
+  }
+  
+  .app-theme p {
+    color: #10c010;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  
+  
+  .fit {
+    position: absolute;
+    left: 0px;
+    top: 20px;
+    width: 100%;
+  }
+  
+  .fit p {
+    margin-top: 5%;
+    margin-bottom: 10%;
+      font-size: 18px;
+      display: block;
+      font-weight: 600;
+      text-align: center;
+    }
+
+  .result_type0 h4{ /*「社会不適者」*/
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 5px;
+  }
+
+  .result_type0 h2{ /*「NEET」*/
+    color: #10c010;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .result_type1 h4 { /*「救世主」*/
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 5px;
+    }
+  
+  .result_type1 h2{/*「HERO」*/
+    color: #15788a;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  
+  
+  .result_theme p  {
+      margin-top: 5%;
+      margin-bottom: 2%;
+      text-align: center;
+  }
+  
+  
+  .result_discription0 {
+      text-align: center;
+      margin-bottom: 5%;
+      
+  }
+  .result_discription1 {
+      text-align: center;
+      margin-bottom: 5%;
+  }
+  
+  
+  .result_discription1 h2 {
+      color: #10c010;
+      text-align: center;
+  }
+  
+  
+    .result_discription0 p {
+      font-family: "游ゴシック体", YuGothic;
+      margin-left: 23%;
+      margin-right: 15%;
+      width: 50%;
+      padding: 20px;
+      text-align: left;
+      border: 1px solid #10c010;
+      color: #303030;
+      font-size: 16px;
+      line-height: 35px;
+      box-shadow: 0px 5px 1px #10c010;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+    .result_discription1 p {
+      font-family: "游ゴシック体", YuGothic;
+      margin-left: 23%;
+      margin-right: 15%;
+      width: 50%;
+      padding: 20px;
+      text-align: left;
+      border: 1px solid #15788a;
+      color: #303030;
+      font-size: 16px;
+      line-height: 35px;
+      box-shadow: 0px 5px 1px #15788a;
+      border-radius: 5px;margin-top: 10px;
+    }
+  
+  .return-btn {
+    margin-top: -80px;
+      margin-left: 35%;
+      margin-right: 35%;
+      width: 30%;
+      margin-bottom: 200px;
+  }
+  .return {
+    display: inline-block;
+    text-align: center;
+      text-decoration: none;
+      color: #fff;
+      background-color: #10c010;
+      width: 100%;
+      padding: 10px 10px;
+      border: 1px solid #10c010 ;
+  }
+  
+  .return:hover {
+      border: 1px solid #10c010 ;
+      background-color: #fff;
+      color: #10c010;
+      transition: 0.5s;
+  }
+

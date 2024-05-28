@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="check.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header><div class="title">性格診断テスト</div>
+
+        <div class="child1">
+            <img src="C:\Users\edu\Documents\VSCODE\MBTI\gazo\image2.png" alt="" class="image2">
+            <div>ポイント１</div>
+            <div>自分の性格タイプを明らかにするため、ありのままの自分で
+                    正直に回答してください
+            </div>
+
+            <img src="C:\Users\edu\Documents\VSCODE\MBTI\gazo\image3.png" alt="" class="image2">
+            <div>ポイント２</div>
+            <div>
+                自分の性格タイプが人生の多くの分野に
+                どのような影響を与えるか学びましょう
+            </div>
+        </div>
+
+        <div class="child2"></div>
+
+    </header>
+
+</script>
+
+<div class="choose_box">
+      <!-- 質問一覧 -->
+      <div class="app-theme">
+        <p>MBTI診断デモ</p>
+      </div>
+      <!-- 質問1 -->
+      <div id="q_01" class="fit">
+        <p>質問1: あなたは普段　</p>
+        <ul>
+          <li><a class="btn" href="#q_02" data-value="a">話すペースが速い</a></li>
+          <li><a class="btn" href="#q_02" data-value="b">話すペースがゆっくり</a></li>
+        </ul>
+      </div>
+
+      <!-- 質問2 -->
+      <div id="q_02" style="display: none;">
+        <p>質問2:　あなたは普段、相手との会話で</p>
+        <ul>
+          <li><a class="btn" href="#q_03" data-value="a">間をとらずに話す</a></li>
+          <li><a class="btn" href="#q_03" data-value="b">間をとりながら話す</a></li>
+        </ul>
+      </div>
+
+      <!-- 質問3 -->
+      <div id="q_03" style="display: none;">
+        <p>質問3:　あなたの話し方は</p>
+        <ul>
+          <li><a class="btn" href="#q_04" data-value="a">語尾がキッパリ</a></li>
+          <li><a class="btn" href="#q_04" data-value="b">語尾がソフト</a></li>
+        </ul>
+      </div>
+
+      <!-- 質問4 -->
+      <div id="q_04" style="display: none;">
+        <p>質問4:　あなたは普段声が</p>
+        <ul>
+          <li><a class="btn" href="#q_05" data-value="a">大きめ</a></li>
+          <li><a class="btn" href="#q_05" data-value="b">小さめ</a></li>
+        </ul>
+      </div>
+
+      <!-- 質問5 -->
+      <div id="q_05" style="display: none;">
+        <p>質問5:　意見を求められた時、あなたは</p>
+        <ul>
+          <li><a class="btn end" data-value="a">自分から口火を切る</a></li>
+          <li><a class="btn end" data-value="b">後から発言する</a></li>
+        </ul>
+      </div>
+
+
+
+<!-- ここから以下回答 -->
+  <!-- 回答の答え1 -->
+     <div id="answer_01" class="result" style="display: none;">
+      <div class="result_theme ">
+            <p>あなたのMBTI:</p>
+      </div>
+      <div class="result_type0 ">
+            <h4>社会不適合者</h4>
+            <h2>NEET</h2>
+      </div>
+
+      <div class="gazo-d"><img src="C:\Users\edu\Documents\VSCODE\MBTI\gazo\image4.png" alt="画像" class="gazo"></div>
+
+      <div class="result_discription0">
+        
+        <p>
+          　社会不適合者は自分は社会に貢献できないと感じますが何故か貢献しようとする努力はしません。
+          <br>それどころか自分んをかわいそうな存在だとアピールしたくて全てを社会のせいにします。
+        </p>
+      </div>
+       <div class="return-btn">
+        <a class="return" href="my_MBTI.html">もどる</a>
+       </div>
+     </div>
+
+
+
+  <!-- 回答の答え2 -->
+     <div id="answer_02" style="display: none;">
+          <div class="result_theme ">
+            <p>あなたのMBTI:</p>
+      </div>
+      <div class="result_type1 ">
+            <h4>救世主</h4>
+            <h2>HERO</h2>
+      </div>
+      <div class="gazo-d"><img src="C:\Users\edu\Documents\VSCODE\MBTI\gazo\image5.png" alt="画像" class="gazo"></div>
+      <div class="result_discription1">
+        <p>
+          　あなたは物事をじっくり考えて、最善策を練ることが得意。組織や周りを支えることが得意。
+        </p>
+      </div>
+       <div class="return-btn">
+        <a class="return" href="my_MBTI.html">もどる</a>
+       </div>
+     </div>
+
+ </div>
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
